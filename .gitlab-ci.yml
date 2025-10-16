@@ -6,5 +6,4 @@ user-echo:
 test-job:
   stage: test
   script:
-    - echo "Tests en cours..."
-    - python3 -c 'print("$CI_COMMIT_BRANCH")'
+    - echo "Tests en cours sur la branche $CI_COMMIT_BRANCH..."
