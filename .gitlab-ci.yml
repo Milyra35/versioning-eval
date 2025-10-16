@@ -1,0 +1,10 @@
+user-echo:
+  stage: build
+  script:
+    - echo "Hello, $GITLAB_USER_LOGIN!"
+
+test-job:
+  stage: test
+  script:
+    - echo "Tests en cours..."
+    - python3 -c 'print("$CI_COMMIT_BRANCH")'
