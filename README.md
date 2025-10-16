@@ -1,0 +1,1 @@
+La première branche de l'exercice 2 a bien été supprimée en local mais pas sur GitHub.
